@@ -1,0 +1,60 @@
+﻿@model IEnumerable<FINALBRIGHTPROJECT.ViewModel.BrightModel.DeliveryTicketViewModel>
+
+@{
+    ViewBag.Title = "ShowTickets";
+}
+
+<h2>ShowTickets</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DeliveryTickets.DeliveryAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DeliveryTickets.city)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DeliveryTickets.Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DeliveryTickets.category)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.username)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.ticketID)
+        </th>*@
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeliveryTickets.DeliveryAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeliveryTickets.city)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeliveryTickets.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeliveryTickets.category)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.username)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.ticketID)
+        </td>*@
+        <td>
+            @Html.ActionLink("Edit", "Edit", new {/* id=item.productId*/ }) |
+            @Html.ActionLink("Details", "Details", new {/* id=item.productId*/ }) |
+            @Html.ActionLink("Delete", "Delete", new { /*id=item.productId*/ })
+        </td>
+    </tr>
+}
+
+</table>

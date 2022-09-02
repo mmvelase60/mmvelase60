@@ -1,0 +1,60 @@
+﻿@model IEnumerable<FINALBRIGHTPROJECT.ViewModel.BrightModel.Items>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-hover table-condensed" id="my_list">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Categories.CatName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TentName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TentSize)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TentPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TentImage)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Categories.CatName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TentName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TentSize)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TentPrice)
+        </td>
+       
+        <td>
+            <a href="@Url.Action("Edit", "Items", new { id = item.TentId })" title="View Details" , rel="nofollow">
+                <img src="data:image/png;base64,@Convert.ToBase64String(item.TentImage, 0, item.TentImage.Length)" style="width: 60px; height: 60px" alt="" />
+            </a>
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.TentId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.TentId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.TentId })
+        </td>
+    </tr>
+}
+
+</table>

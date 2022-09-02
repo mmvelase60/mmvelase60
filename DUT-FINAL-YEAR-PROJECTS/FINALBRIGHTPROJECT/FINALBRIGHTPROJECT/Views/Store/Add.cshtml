@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Add";
+}
+<h2>Add Category and Producer</h2>
+
+<div style="width:33%; height:50%; float:left">
+    @{ Html.RenderAction("AddCategory", "Category");}
+</div>
+
+
+@*<div style="width:33%; height:50%; float:right">
+        @{ Html.RenderAction("AddProducer", "Producer");}
+    </div>*@
+
+<div>
+    @{ Html.RenderAction("DisplayCategories", "Category");}
+</div>
+
+@*<div>
+        @{ Html.RenderAction("DisplayProducers", "Producer");}
+    </div>*@

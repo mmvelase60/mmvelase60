@@ -1,0 +1,95 @@
+﻿@model FINALBRIGHTPROJECT.ViewModel.BrightModel.TaskViewModel
+
+@{
+    ViewBag.Title = "assigntask";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        <h4>ProductTicket</h4>
+        @Html.HiddenFor(model => model.ticketID)
+        @Html.HiddenFor(model => model.DrviverId)
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.DeliveryAddress)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DeliveryAddress)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.city)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.city)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Code)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Code)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.category)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.category)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.username)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.username)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DriverName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DriverName) @Html.DisplayFor(model => model.DriverSurname)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Job)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Job)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.DriverEmail)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DriverEmail)
+            </dd>
+        </dl>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="assigntask" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+

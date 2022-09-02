@@ -1,0 +1,87 @@
+﻿@model IEnumerable<FINALBRIGHTPROJECT.ViewModel.BrightModel.DeliveryTicket>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DeliveryAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.city)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Code)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.DeliveryDate)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.DeliveryTime)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.DateCollected)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.CollectTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.category)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.username)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.status)
+        </th>*@
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeliveryAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.city)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Code)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.DeliveryDate)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.DeliveryTime)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.DateCollected)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.CollectTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.category)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.username)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.status)
+        </td>*@
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ticketID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ticketID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ticketID })
+        </td>
+    </tr>
+}
+
+</table>

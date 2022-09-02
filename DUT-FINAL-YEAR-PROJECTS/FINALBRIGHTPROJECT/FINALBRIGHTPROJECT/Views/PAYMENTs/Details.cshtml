@@ -1,0 +1,66 @@
+﻿@model FINALBRIGHTPROJECT.ViewModel.BrightModel.PAYMENT
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PAYMENT</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Bookings.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bookings.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PayStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PayStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Purchasetype)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Purchasetype)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PurchaseId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

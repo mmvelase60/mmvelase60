@@ -1,0 +1,68 @@
+﻿@model FINALBRIGHTPROJECT.ViewModel.BrightModel.TaskViewModel
+@using FINALBRIGHTPROJECT.ViewModel;
+@{
+    ApplicationDbContext db = new ApplicationDbContext();
+}
+<h2>Tasks</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            <h4>Delivery Address</h4>
+        </th>
+        <th>
+            <h4>City</h4>
+        </th>
+        <th>
+            <h4>Code</h4>
+        </th>
+        <th>
+            <h4>Customer Name</h4>
+        </th>
+        <th>
+            <h4>Category</h4>
+        </th>
+        <th>
+            <h4>Drivers</h4>
+        </th>
+    </tr>
+
+    @foreach (var item in db.DeliveryTickets.ToList())
+    {
+        if ((db.Delivery_Per_Drivers.Where(x => x.ticketID == item.ticketID).Count()) == 0)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeliveryAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.city)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Code)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.username)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.category)
+                </td>
+                <td>
+                    <ul>
+                        @foreach (var val in db.Drivers.Where(w => w.tentType == item.category).ToList())
+                        {
+                            <li>
+                                @Html.DisplayFor(modelItem => val.DriverName) |
+                                |@Html.ActionLink("assigntask", "assigntask", new { id = item.ticketID, idt = val.DriverId })
+                            </li>
+                        }
+                    </ul>
+
+                </td>
+            </tr>
+        }
+
+    }
+
+</table>
+

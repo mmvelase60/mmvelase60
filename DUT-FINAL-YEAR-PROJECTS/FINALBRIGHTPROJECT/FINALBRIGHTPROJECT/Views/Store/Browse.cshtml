@@ -1,0 +1,55 @@
+﻿@model IEnumerable<FINALBRIGHTPROJECT.ViewModel.BrightModel.Items>
+
+@{
+    ViewBag.Title = "Browse";
+}
+<div class="container">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            <p>
+
+
+
+                <div ="col-sm-3 col-md-6" style="color:blue">
+
+                    @if (item.TentImage != null)
+                    {
+                        string imageBase64 = Convert.ToBase64String(item.TentImage);
+                        string imageSrc = string.Format("data:image/gif;base64,{0}", imageBase64);
+
+                        <image alt="@item.TentName"
+                               src="@imageSrc" width="400"
+                               height="400" />
+
+                    }
+
+
+
+                </div>
+
+            </p>
+            <div id="item-details">
+                <p>
+                    <em>Category:</em>
+                    @item.Categories.CatName
+                </p>
+                @*<p>
+                        <em>Producer:</em>
+                        @item.Producer.Name
+                    </p>*@
+                <p>
+                    <em>Price:</em>
+                    @String.Format("{0:F}", item.TentPrice)
+                </p>
+                <p class="button1">
+                    @Html.ActionLink("Add to cart", "AddToCart",
+        "ShoppingCart", new { id = item.TentId }, "")
+                </p>
+                <div class="fb-comments" data-width="230" data-numposts="5"></div>
+            </div>
+        </div>
+    }
+
+</div>
+

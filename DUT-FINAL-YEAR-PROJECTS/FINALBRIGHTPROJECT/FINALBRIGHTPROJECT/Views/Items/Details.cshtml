@@ -1,0 +1,58 @@
+﻿@model FINALBRIGHTPROJECT.ViewModel.BrightModel.Items
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Items</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Categories.CatName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categories.CatName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TentName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TentName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TentSize)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TentSize)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TentPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TentPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TentImage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TentImage)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TentId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

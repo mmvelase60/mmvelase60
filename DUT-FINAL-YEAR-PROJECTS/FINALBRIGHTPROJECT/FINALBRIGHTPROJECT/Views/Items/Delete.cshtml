@@ -1,0 +1,64 @@
+﻿@model FINALBRIGHTPROJECT.ViewModel.BrightModel.Items
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Items</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Categories.CatName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categories.CatName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TentName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TentName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TentSize)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TentSize)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TentPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TentPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TentImage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TentImage)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

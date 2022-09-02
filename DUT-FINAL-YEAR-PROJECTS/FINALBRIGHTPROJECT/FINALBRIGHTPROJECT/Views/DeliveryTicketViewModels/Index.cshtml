@@ -1,0 +1,51 @@
+﻿@model IEnumerable<FINALBRIGHTPROJECT.ViewModel.BrightModel.DeliveryTicketViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.deliveryAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.category)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.username)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ticketID)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.deliveryAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.category)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.username)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ticketID)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.productId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.productId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.productId })
+        </td>
+    </tr>
+}
+
+</table>

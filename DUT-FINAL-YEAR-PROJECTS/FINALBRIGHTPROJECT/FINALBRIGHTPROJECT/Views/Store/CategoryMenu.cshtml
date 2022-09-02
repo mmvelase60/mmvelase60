@@ -1,0 +1,14 @@
+﻿@model IEnumerable<FINALBRIGHTPROJECT.ViewModel.BrightModel.Category>
+
+@{
+    ViewBag.Title = "CategoryMenu";
+}
+@foreach (var category in Model)
+{
+
+    <p class="btn">
+        @Html.ActionLink(category.CatName, "Browse", "Store", new { Category = category.CatName }, null)
+
+    </p>
+
+}

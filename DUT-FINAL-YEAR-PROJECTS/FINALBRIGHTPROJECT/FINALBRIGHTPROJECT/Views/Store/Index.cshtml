@@ -1,0 +1,18 @@
+﻿@model IEnumerable<FINALBRIGHTPROJECT.ViewModel.BrightModel.Category>
+
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Browse Category</h2>
+<p>
+    Select from @Model.Count()
+    Categories:
+</p>
+<ul>
+    @foreach (var category in Model)
+    {
+        <li>@Html.ActionLink(category.CatName, "Browse", new { category = category.CatName })</li>
+    }
+
+
+</ul>
