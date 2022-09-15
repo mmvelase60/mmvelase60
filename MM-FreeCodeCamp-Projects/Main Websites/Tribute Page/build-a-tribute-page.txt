@@ -1,0 +1,37 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main">
+       <title id="title">Dr. Norman Borlaug
+
+       </title>
+       <div id="img-div">
+         <img id="image">
+         <figcaption id="img-caption">Caption
+         </figcaption>
+         <p id="tribute-info">Tribute</p>
+         <a href="" id="tribute-link" target="_blank">
+       </div>
+    </main>
+  </body>
+  <footer></footer>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+img {
+  display:block;
+  max-width:100%;
+  height:auto;
+  margin: 0 auto;text-align:center;
+}
+
+** end of undefined **
+
