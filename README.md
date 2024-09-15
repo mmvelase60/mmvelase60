@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+I'm Mthokozisi from South Africa, and I have experience in Software Development, Azure Cloud Engineer, and IT Support & Technical.  I really enjoy learning languages and frameworks like Angular, React, C#, Java, Python, JavaScript, and TypeScript, as well as working in WordPress. I also enjoy wireframing, ui, ux, and design in general.
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mmvelase60 )](https://github.com/anuraghazra/github-readme-stats)
+
 <!--
 **mmvelase60/mmvelase60** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
