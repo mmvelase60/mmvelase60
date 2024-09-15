@@ -4,7 +4,7 @@
 
 I'm Mthokozisi from South Africa, and I have experience in Software Development, Azure Cloud Engineer, and IT Support & Technical. I really enjoy learning languages and frameworks like Angular, React, C#, Java, Python, JavaScript, and TypeScript, as well as working in WordPress. I also enjoy wireframing, ui, ux, and design in general.
 
-Skills: C# / ANGULAR / TS/ SQL / JS / HTML / CSS
+Skills: C# / ANGULAR / JAVA / PHYTHON / TS/ SQL / JS / HTML / CSS
 
 - 🔭 I’m currently working on this page. 
 
