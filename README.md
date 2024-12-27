@@ -15,13 +15,12 @@
 
 <h2>☁️ Cloud Engineer</h2>
 
-- <b>Project 1</b>
   - [Explore different Azure Storage services and Delete or Copy Files from Azure Blob storage by Using SSIS Package](https://github.com/mmvelase60/azure-storage-ssis-blob-management/tree/main)
-- <b>Project 2</b>
+
   - [Manage Azure resources and monitor costs by creating automation tasks](https://github.com/mmvelase60/Projects/blob/main/CompanyPrinters(Angular16App)) 
-- <b>project 3</b>
+
   - [Process Blob Files Automatically using an Azure Function with Blob Trigger](https://github.com/mmvelase60/mmvelase60/tree/main/TetrisGMbyMM01/TetrisGMbyMM01)
-- <b>Project 4</b>
+
   - [Send push notifications to specific Android apps using Azure Notification Hubs](https://github.com/joshmadakor1/EncrypterPOC)
 
 <h2>👨‍🎓 Certificate </h2>
