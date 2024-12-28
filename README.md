@@ -17,11 +17,11 @@
 
   - [Explore different Azure Storage services and Delete or Copy Files from Azure Blob storage by Using SSIS Package](https://github.com/mmvelase60/azure-storage-ssis-blob-management/tree/main)
 
-  - [Manage Azure resources and monitor costs by creating automation tasks](https://github.com/mmvelase60/Projects/blob/main/CompanyPrinters(Angular16App)) 
+  - [Manage Azure resources and monitor costs by creating automation tasks](https://github.com/mmvelase60/azure-resource-management-automation/tree/main) 
 
-  - [Process Blob Files Automatically using an Azure Function with Blob Trigger](https://github.com/mmvelase60/mmvelase60/tree/main/TetrisGMbyMM01/TetrisGMbyMM01)
+  - [Process Blob Files Automatically using an Azure Function with Blob Trigger](https://github.com/mmvelase60/azure-function-blob-trigger-automation/tree/main)
 
-  - [Send push notifications to specific Android apps using Azure Notification Hubs](https://github.com/joshmadakor1/EncrypterPOC)
+  - [Send push notifications to specific Android apps using Azure Notification Hubs](https://github.com/mmvelase60/azure-notification-hubs-android-push/tree/main)
 
 <h2>👨‍🎓 Certificate </h2>
 
