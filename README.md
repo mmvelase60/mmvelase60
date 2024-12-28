@@ -31,8 +31,6 @@
 
 <h2>👨‍🎓 Certificate </h2>
 
-<h2>👨‍🎓 Certificate </h2>
-
 <h2>📺 Popular YouTube Videos</h2>
 
 - [How to Book Your Smart ID and Passport Applications Online or at SA Bank Branches](https://youtu.be/CZT3cgIVdew)
