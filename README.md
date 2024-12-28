@@ -31,12 +31,29 @@
 
 <h2>👨‍🎓 Certificate </h2>
 
+- [Microsoft Certified: Azure Fundamentals](https://github.com/mmvelase60/MM-Certificates/tree/main)
+
+- [Microsoft Certified: Azure Administrator Associate](https://github.com/mmvelase60/MM-Certificates/tree/main)
+ 
+- [Microsoft Certified: Azure IoT Developer Specialty](https://github.com/mmvelase60/MM-Certificates/tree/main)
+   
+- [Microsoft Certified: Azure AI Engineer Associate](https://github.com/mmvelase60/MM-Certificates/tree/main)
+
+- [Data Analytics and PowerBI Certificate](https://github.com/mmvelase60/MM-Certificates/tree/main)
+
+- [Microsoft Certified: Microsoft 365 Fundamentals](https://github.com/mmvelase60/MM-Certificates/tree/main)
+
+- [Huawei 5G Certificate](https://github.com/mmvelase60/MM-Certificates/tree/main)
+
+- [Cisco IoT Certificate](https://github.com/mmvelase60/MM-Certificates/tree/main)
+
+- [Microsoft Digital Literacy Certificate](https://github.com/mmvelase60/MM-Certificates/tree/main)
+    
 <h2>📺 Popular YouTube Videos</h2>
 
-- [How to Book Your Smart ID and Passport Applications Online or at SA Bank Branches](https://youtu.be/CZT3cgIVdew)
-- [Top 10 Best Places to Visit in Africa](https://youtu.be/k-A92K1hAtQ)
-- [10 ChatGPT prompts to land your dream job in 30 days](https://youtu.be/wKr2U-gtHJ8)
-
+- [Top 10 Must-Visit Destinations in South Africa | Ultimate Travel Guide!s](https://youtu.be/1ZYvXCi1D44)
+- [Top 10 Best Places to Visit in Africa](https://youtu.be/hYhT4lLzdEs)
+- [Top 10 Must-Visit Places in Rwanda | Ultimate Travel Guide](https://youtu.be/pSpNPwXERTg)
 <h2> 🤳 Connect with me:</h2>
 
 [<img align="left" alt="JoshMadakor | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
@@ -45,7 +62,7 @@
 [<img align="left" alt="JoshMadakor | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 [twitter]: https://twitter.com/mthokozisi
-[youtube]: https://www.youtube.com/DigiDIYSA
+[youtube]: www.youtube.com/@Wanderwise-o3w
 [instagram]: https://www.instagram.com/mthokozisi/
 [linkedin]: https://linkedin.com/in/mthokozisi-mvelase
 
