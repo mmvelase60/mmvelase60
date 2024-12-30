@@ -5,9 +5,9 @@
 - <b>C# (.NET MVC Application (Tent Hiring Application)</b>
   - [DUT Final Year Project](https://github.com/mmvelase60/mmvelase60/tree/main/DUT-FINAL-YEAR-PROJECTS/FINALBRIGHTPROJECT) 
 - <b>Full Stack Web App (Angular 16, TypeScript, C#, HTML, CSS)</b>
-  - [Company Printers App](https://github.com/mmvelase60/Projects/blob/main/CompanyPrinters(Angular16App)) 
+  - [Company Printers App](https://github.com/mmvelase60/Projects/tree/main) 
 - <b>C# (.NET WebForms Applications)</b>
-  - [Campany Printers](https://github.com/mmvelase60/Projects/blob/main/CompanyPrinters(Web%20Form).rar)
+  - [Campany Printers](https://github.com/mmvelase60/Projects/tree/main) 
 - <b>C# (.NET Windows Presentation Foundation(WPF) Applications)</b>
   - [Tetris Game](https://github.com/mmvelase60/mmvelase60/tree/main/TetrisGMbyMM01/TetrisGMbyMM01)
 - <b>Excel (Monitoring Applications)</b>
