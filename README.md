@@ -1,8 +1,75 @@
 <h1>Hi, I'm Mthokozisi Mvelase! <br/><a href="https://github.com/mmvelase60">Full Stack Software Engineer | Java </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Spring Boot </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Angular </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">React </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Azure </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Docker </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Kubernetes </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Boomi</a></h1>
 
 <h2>👨‍💻 About Me:</h2>
+I'm a Full Stack Software Engineer with over 5 years of combined professional experience in software development, cloud engineering, enterprise integration, and IT support.
+
+I currently develop enterprise applications using Java, Spring Boot, Spring Security, MySQL, Azure DevOps, and Boomi Integration Platform.
+
+My technical background also includes React, Angular, ASP.NET, C#, Microsoft SQL Server, Docker, Kubernetes, Terraform, and Microsoft Azure.
+
+I enjoy designing secure REST APIs, solving complex business problems, integrating enterprise systems, and building scalable cloud-native applications.
+
+I'm passionate about continuous learning and modern software engineering practices.
 
 <h2>🛠 Tech Stack:</h2>
+
+### Languages
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+![C#](...)
+
+![TypeScript](...)
+
+![SQL](...)
+
+### Backend
+
+Spring Boot
+
+Spring Security
+
+ASP.NET
+
+REST APIs
+
+JWT
+
+Hibernate
+
+### Frontend
+
+Angular
+
+React
+
+Bootstrap
+
+HTML5
+
+CSS3
+
+### Database
+
+MySQL
+
+SQL Server
+
+### DevOps
+
+Azure
+
+Docker
+
+Kubernetes
+
+Terraform
+
+Azure DevOps
+
+Git
+
+Boomi
 
 <h2>🚀 Featured Projects:</h2>
 
