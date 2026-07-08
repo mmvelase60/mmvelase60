@@ -1,4 +1,4 @@
-<h1>Hi, I'm Mthokozisi Mvelase! <br/><a href="https://github.com/joshmadakor1">Programmer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">Azure Cloud Engineer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">IT Support & Technical </a>, <a href="https://www.youtube.com/c/joshmadakor">YouTuber</a></h1>
+<h1>Hi, I'm Mthokozisi Mvelase! <br/><a href="https://github.com/mmvelase60">Full Stack Software Engineer | Java </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Spring Boot </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Angular </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">React </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Azure </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Docker </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Kubernetes </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Boomi</a></h1>
 
 <h2>👨‍💻 Software Development Projects:</h2>
 
