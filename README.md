@@ -230,9 +230,35 @@ Technologies
 
 ---
 
-# 📈 GitHub Stats
+## 📊 GitHub Statistics
 
-> (Coming Soon)
+<p align="center">
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=mmvelase60&show_icons=true&theme=github_dark&hide_border=true"/>
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mmvelase60&layout=compact&theme=github_dark&hide_border=true"/>
+
+</p>
+
+---
+
+## GitHub Streak
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=mmvelase60&theme=github-dark-blue&hide_border=true"/>
+
+</p>
+
+---
+
+## GitHub Trophies
+
+<p align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=mmvelase60&theme=algolia&margin-w=15&margin-h=15"/>
+
+</p>
 
 ---
 
