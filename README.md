@@ -1,154 +1,257 @@
-<h1>Hi, I'm Mthokozisi Mvelase! <br/><a href="https://github.com/mmvelase60">Full Stack Software Engineer | Java </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Spring Boot </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Angular </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">React </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Azure </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Docker </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Kubernetes </a>• <a href="https://www.linkedin.com/in/mthokozisi-mvelase/">Boomi</a></h1>
+<h1 align="center">
+Hi 👋, I'm Mthokozisi Mvelase
+</h1>
 
-<h2>👨‍💻 About Me:</h2>
-I'm a Full Stack Software Engineer with over 5 years of combined professional experience in software development, cloud engineering, enterprise integration, and IT support.
+<h3 align="center">
+Full Stack Software Engineer
+</h3>
 
-I currently develop enterprise applications using Java, Spring Boot, Spring Security, MySQL, Azure DevOps, and Boomi Integration Platform.
+<p align="center">
 
-My technical background also includes React, Angular, ASP.NET, C#, Microsoft SQL Server, Docker, Kubernetes, Terraform, and Microsoft Azure.
+Java • Spring Boot • Spring Security • Angular • React • Azure • Docker • Kubernetes • Terraform • Boomi
 
-I enjoy designing secure REST APIs, solving complex business problems, integrating enterprise systems, and building scalable cloud-native applications.
+</p>
 
-I'm passionate about continuous learning and modern software engineering practices.
+---
 
-<h2>🛠 Tech Stack:</h2>
+# 👨‍💻 About Me
 
-### Languages
+I'm a **Full Stack Software Engineer** with professional experience across **Software Development, Cloud Engineering, Enterprise Integration, and IT Operations**.
+
+I currently develop enterprise applications using **Java, Spring Boot, Spring Security, MySQL, Azure DevOps, and Boomi Integration Platform**.
+
+My background also includes experience with:
+
+- Java
+- Spring Boot
+- Spring Security
+- Angular
+- React
+- ASP.NET API
+- ASP.NET Web Forms
+- C#
+- SQL Server
+- MySQL
+- Azure
+- Azure DevOps
+- Docker
+- Kubernetes
+- Terraform
+- Git
+- REST APIs
+- JWT Authentication
+
+I enjoy designing secure enterprise applications, building scalable REST APIs, integrating systems, automating deployments, and continuously improving software quality.
+
+---
+
+# 💻 Tech Stack
+
+## Languages
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C%23](https://img.shields.io/badge/C%23-68217A?style=for-the-badge&logo=csharp&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
-![C#](...)
+---
 
-![TypeScript](...)
+## Backend
 
-![SQL](...)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens)
 
-### Backend
+---
 
-Spring Boot
+## Frontend
 
-Spring Security
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-ASP.NET
+---
 
-REST APIs
+## Databases
 
-JWT
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
-Hibernate
+---
 
-### Frontend
+## Cloud & DevOps
 
-Angular
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-React
+---
 
-Bootstrap
+## Enterprise Integration
 
-HTML5
+- Boomi Integration Platform
+- REST APIs
+- JSON
+- XML
+- Microservices Integration
 
-CSS3
+---
 
-### Database
+# 🚀 Featured Projects
 
-MySQL
+## 📚 EduMaster
 
-SQL Server
+Enterprise School Management System
 
-### DevOps
+**Tech Stack**
 
-Azure
+- Java
+- Spring Boot
+- Spring Security
+- React
+- MySQL
+- JWT Authentication
+- Docker
+- Boomi Integration
 
-Docker
+🔗 Repository
 
-Kubernetes
+https://github.com/mmvelase60/edumaster-api
 
-Terraform
+---
 
-Azure DevOps
+## 👨‍🏫 Teacher Verify
 
-Git
+Teacher Verification Management System
 
-Boomi
+**Tech Stack**
 
-<h2>🚀 Featured Projects:</h2>
+- Java
+- Spring Boot
+- Spring Security
+- Angular
+- MySQL
+- REST APIs
+- Boomi Integration
 
-- <b>C# (.NET MVC Application (Tent Hiring Application)</b>
-  - [DUT Final Year Project](https://github.com/mmvelase60/mmvelase60/tree/main/DUT-FINAL-YEAR-PROJECTS/FINALBRIGHTPROJECT) 
-- <b>Full Stack Web App (Angular 16, TypeScript, C#, HTML, CSS)</b>
-  - [Company Printers App](https://github.com/mmvelase60/Projects/tree/main) 
-- <b>C# (.NET WebForms Applications)</b>
-  - [Campany Printers](https://github.com/mmvelase60/Projects/tree/main) 
-- <b>C# (.NET Windows Presentation Foundation(WPF) Applications)</b>
-  - [Tetris Game](https://github.com/mmvelase60/mmvelase60/tree/main/TetrisGMbyMM01/TetrisGMbyMM01)
-- <b>Excel (Monitoring Applications)</b>
-  - [Role Based Login](https://github.com/mmvelase60/Projects/tree/main) 
+🔗 Repository
 
-<h2>☁ Cloud & DevOps</h2>
+https://github.com/mmvelase60/teacherverify-api
 
-  - [Explore different Azure Storage services and Delete or Copy Files from Azure Blob storage by Using SSIS Package](https://github.com/mmvelase60/azure-storage-ssis-blob-management/tree/main)
+---
 
-  - [Manage Azure resources and monitor costs by creating automation tasks](https://github.com/mmvelase60/azure-resource-management-automation/tree/main) 
+## 🔄 Boomi Integration Demo
 
-  - [Process Blob Files Automatically using an Azure Function with Blob Trigger](https://github.com/mmvelase60/azure-function-blob-trigger-automation/tree/main)
+Enterprise Integration Demo connecting EduMaster and Teacher Verify.
 
-  - [Send push notifications to specific Android apps using Azure Notification Hubs](https://github.com/mmvelase60/azure-notification-hubs-android-push/tree/main)
+Technologies
 
-<h2>📊 Data Analytics and Power BI</h2>
+- Boomi
+- REST APIs
+- JSON
+- Spring Boot
 
-  - [Connecting data source and cleaning data](https://github.com/mmvelase60/DataConnect-Clean/tree/main)
+🔗 Repository
 
-  - [Data visualization using Power BI Dashboard](https://github.com/mmvelase60/powerbi-data-visualization-dashboard/tree/main) 
+https://github.com/mmvelase60/boomi-demo
 
-<h2>🏆 Microsoft Certifications </h2>
+---
 
-- [Microsoft Certified: Azure Fundamentals](https://github.com/mmvelase60/MM-Certificates/tree/main)
+## 👨‍💼 Employee Management System
 
-- [Microsoft Certified: Azure Administrator Associate](https://github.com/mmvelase60/MM-Certificates/tree/main)
- 
-- [Microsoft Certified: Azure IoT Developer Specialty](https://github.com/mmvelase60/MM-Certificates/tree/main)
-   
-- [Microsoft Certified: Azure AI Engineer Associate](https://github.com/mmvelase60/MM-Certificates/tree/main)
+Enterprise Employee Management Application
 
-- [Data Analytics and PowerBI Certificate](https://github.com/mmvelase60/MM-Certificates/tree/main)
+Technologies
 
-- [Microsoft Certified: Microsoft 365 Fundamentals](https://github.com/mmvelase60/MM-Certificates/tree/main)
+- Angular
+- Spring Boot
+- SQL Server
+- REST APIs
 
-- [Huawei 5G Certificate](https://github.com/mmvelase60/MM-Certificates/tree/main)
+---
 
-- [Cisco IoT Certificate](https://github.com/mmvelase60/MM-Certificates/tree/main)
+# ☁ Cloud Engineering Projects
 
-- [Microsoft Digital Literacy Certificate](https://github.com/mmvelase60/MM-Certificates/tree/main)
-    
-<h2>📺 Popular YouTube Videos</h2>
+- Azure Storage Automation
 
-- [Top 10 Must-Visit Destinations in South Africa | Ultimate Travel Guide!s](https://youtu.be/1ZYvXCi1D44)
-- [Top 10 Best Places to Visit in Africa](https://youtu.be/hYhT4lLzdEs)
-- [Top 10 Must-Visit Places in Rwanda | Ultimate Travel Guide](https://youtu.be/pSpNPwXERTg)
-<h2> 📫 Contact Me:</h2>
+- Azure Functions
 
-[<img align="left" alt="JoshMadakor | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="JoshMadakor | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="JoshMadakor | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+- Azure Notification Hubs
 
-[twitter]: https://twitter.com/mthokozisi
-[youtube]: www.youtube.com/@Wanderwise-o3w
-[instagram]: https://www.instagram.com/mthokozisi/
-[linkedin]: https://linkedin.com/in/mthokozisi-mvelase
+- Azure Resource Management
 
-<!--
-**joshmadakor1/joshmadakor1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- Azure DevOps
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# 🏆 Microsoft Certifications
 
+🥇 Microsoft Certified: Azure AI Engineer Associate (AI-102)
+
+🥇 Microsoft Certified: Azure Administrator Associate (AZ-104)
+
+🥇 Microsoft Certified: Azure AI Fundamentals (AI-900)
+
+🥇 Microsoft Certified: Azure Fundamentals (AZ-900)
+
+🥇 Microsoft Certified: Azure IoT Developer Specialty
+
+🥇 Microsoft Certified: Microsoft 365 Fundamentals
+
+🥇 Power BI Certificate
+
+🥇 Huawei 5G Certificate
+
+🥇 Cisco IoT Certificate
+
+🥇 Microsoft Digital Literacy
+
+---
+
+# 🌱 Currently Learning
+
+- Microservices Architecture
+- GitHub Actions
+- CI/CD Pipelines
+- Kubernetes
+- Terraform
+- Azure Cloud Architecture
+- System Design
+- Clean Architecture
+
+---
+
+# 📈 GitHub Stats
+
+> (Coming Soon)
+
+---
+
+# 🤝 Connect With Me
+
+💼 LinkedIn
+
+https://linkedin.com/in/mthokozisi-mvelase
+
+📧 Email
+
+YOUR_EMAIL_HERE
+
+🌍 GitHub
+
+https://github.com/mmvelase60
+
+---
+
+⭐ Thanks for visiting my profile!
+
+I enjoy collaborating on enterprise software, cloud-native applications, REST APIs, Java, Spring Boot, Angular, React, Azure, Docker, Kubernetes, Terraform and modern software engineering projects.
